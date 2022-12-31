@@ -1,0 +1,90 @@
+#event-bg {
+  background-color: #000;
+}
+.new-column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.event-bg {
+  background-color: #191919;
+}
+/* Remove extra left and right margins, due to padding */
+.new-row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.new-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .new-column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #event-img {
+    width: 9rem;
+  }
+  #event-sub {
+    font-size: 14px;
+  }
+  #event-par {
+    font-size: 12px;
+    padding-inline: 0rem;
+  }
+  #new-card {
+    height: 20rem;
+  }
+}
+h3 {
+  color: #fff;
+  position: absolute;
+}
+h2 {
+  color: #fff;
+}
+.event-sub {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+  padding-left: 2.3rem;
+  padding-top: 0.3rem;
+}
+#new-row-pad {
+  padding-top: 3rem;
+}
+.event-par {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  margin-left: 1rem;
+  padding-inline: 2rem;
+}
+/* Style the counter cards */
+.new-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #191919;
+  color: black;
+  height: 27rem;
+  border-radius: 6px;
+}
+.event-img {
+  width: 15rem;
+}

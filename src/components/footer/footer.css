@@ -1,0 +1,119 @@
+.footer-log {
+  width: 7rem;
+  padding-top: 2rem;
+  margin-left: 0rem;
+}
+.footer-bg {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.footer-paragraph {
+  padding-top: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 139% */
+
+  color: #938e8e;
+}
+.Links {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  padding-top: 4rem;
+  color: #ffffff;
+}
+.list-all-footer {
+  list-style-type: none;
+  text-align: center;
+  /* margin-left: -16rem; */
+}
+.sub-par-footer {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  padding-top: 4rem;
+  color: #ffffff;
+}
+.list {
+  text-decoration: none;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  padding: 14px;
+  margin-left: -4rem;
+  color: #938e8e;
+}
+.list-all {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sub-par {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  padding-top: 4rem;
+  color: #ffffff;
+}
+.footer-input {
+  width: 19rem;
+  margin-left: 11rem;
+  color: #000;
+  height: 2.4rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .list-all-footer {
+    margin-left: 1rem;
+  }
+  .footer-input {
+    margin-left: 4rem;
+  }
+  .btn-sub {
+    margin-left: 4rem;
+  }
+}
+.btn-sub {
+  margin-left: 11rem;
+  padding: 11px 10px 10px 19px;
+  background: transparent;
+  border-radius: 6px;
+  border-color: #db9534;
+  margin-top: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-align: center;
+
+  color: #ffffff;
+}
+.insta {
+  width: 12rem;
+  color: #ff0844;
+}

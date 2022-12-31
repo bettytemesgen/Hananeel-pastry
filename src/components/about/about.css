@@ -1,0 +1,267 @@
+.about-main-headers {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 101% */
+  padding-top: 11rem;
+  color: #ffffff;
+}
+.about-main-paragraphs {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* padding-top: 14rem; */
+  color: #938e8e;
+}
+.About-story {
+  background-color: #191919;
+}
+.main-bk-about {
+  height: 29rem;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: -7rem;
+}
+
+.About-header-story {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  /* or 116% */
+  color: white;
+  margin-top: 5rem;
+}
+.About-paragraph-story {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: left;
+  margin-top: 5rem;
+  color: #938e8e;
+}
+.story-cake {
+  margin-top: 4rem;
+  width: 41rem;
+}
+#story-cake-two {
+  padding-top: 1rem;
+}
+.story-cake-one {
+  width: 21rem;
+  /* height: 19rem; */
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .story-cake-one {
+    margin-left: -8rem;
+  }
+  /* .about__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+  } */
+  .about-main-headers {
+    padding-top: 6rem;
+    font-size: 35px;
+  }
+
+  .about-main-paragraphs {
+    padding-top: 3rem;
+  }
+  .About-header-story {
+    /* margin-top: 15rem; */
+    /* display: none; */
+  }
+  .About-header-story-mobile {
+    margin-top: 15rem;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    /* or 116% */
+    color: white;
+  }
+  .main-bk-about {
+    height: 10rem;
+  }
+  .story-cake {
+    width: 20rem;
+    margin-left: -8rem;
+  }
+}
+.class-row {
+  padding-inline: 8rem;
+}
+
+.meet-team-header {
+  font-family: "Bebas Neue";
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  /* identical to box height, or 116% */
+  padding-top: 3rem;
+  color: #ffffff;
+}
+.meet-team-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  /* padding-inline: 5rem; */
+  text-align: center;
+
+  color: #938e8e;
+}
+.team-one {
+  /* padding-top: 5rem; */
+  width: 19rem;
+  padding-bottom: 3rem;
+}
+
+.team-paragraph {
+  padding-top: 13rem;
+  text-align: left;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #938e8e;
+}
+#team-row {
+  padding-bottom: 4rem;
+}
+.team-name {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 84px;
+  /* identical to box height, or 350% */
+  /* padding-top: 4rem; */
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .team-name {
+    padding-top: 0rem;
+  }
+  .team-paragraph {
+    padding-inline: 1rem;
+    margin-top: -15rem;
+  }
+}
+.team-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: 0.02em;
+  padding-top: 17rem;
+  color: #ffffff;
+}
+.team-subheader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  margin-top: -2rem;
+}
+/* social meda */
+
+/* .about__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0rem;
+} */
+.about__card {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-top: 5rem;
+}
+.about__cardss {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border-color: #191919;
+  margin-top: 5rem;
+}
+.about__card:hover {
+  background: transparent;
+  border-color: #191919;
+  cursor: default;
+}
+
+.social-bk {
+  background: #080808;
+  padding-bottom: 3rem;
+}
+
+.about__cardss {
+  background: transparent;
+  padding: 1.5rem;
+
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: blue;
+}
+.about__cardss:hover {
+  background-color: #191919;
+  /* border-color: #191919; */
+}
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #db9534;
+}
+.contact-option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+#icon-colo {
+  color: #9518fc;
+}
+#icons-color {
+  color: #db9534;
+}

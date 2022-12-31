@@ -1,0 +1,105 @@
+.main-bk-events {
+  height: 29rem;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: -7rem;
+}
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+.items {
+  background-color: black;
+}
+#grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.events-bg {
+  background-color: black;
+  margin-bottom: -1rem;
+  padding-bottom: 7rem;
+}
+.icon-par {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.events-img {
+  width: 4rem;
+}
+.events-two-paragraph {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 2rem;
+}
+.events-para-two {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+}
+.events-para-twos {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+  padding-top: 1rem;
+}
+.events-two-par {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  /* identical to box height, or 116% */
+  padding-top: 4rem;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .icon-par {
+    font-size: 14px;
+    line-height: 29px;
+  }
+  .events-img {
+    width: 3rem;
+  }
+  .events-two-paragraph {
+    margin-top: -6rem;
+    font-size: 36px;
+    line-height: 51px;
+    padding-top: 0rem;
+  }
+  .events-two-par {
+    font-size: 45px;
+    padding-top: 1rem;
+  }
+  .events-bg {
+    padding-bottom: 3rem;
+  }
+}

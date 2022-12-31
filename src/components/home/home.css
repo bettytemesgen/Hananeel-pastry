@@ -1,0 +1,629 @@
+.main-bk {
+  height: 50rem;
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: -5rem;
+  /* opacity: 1.6;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.81) 0%,
+    rgba(199, 190, 181, 0.2) 140.45%,
+    rgba(255, 249, 242, 0.2) 160.67%
+  ); */
+}
+/* ---------------home------ */
+.home-header {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 95px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 9rem;
+}
+.home-paragraph {
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  color: white;
+  /* color: #938e8e; */
+}
+.btn-order {
+  padding: 9px 47px 0px 45px;
+  background: linear-gradient(96.09deg, #db9534 -0.96%, #d8c465 145.24%);
+  border-radius: 6px;
+  border: none;
+}
+.home-btn-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.btn-read {
+  padding: 7px 26px 11px 31px;
+  background: transparent;
+  border-radius: 6px;
+  border-color: #db9534;
+  margin-inline: 2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.home-two-button {
+  display: flex;
+  margin-top: 3rem;
+}
+/* ==============ABOU-HOME=============== */
+.About-main-bg {
+  background-color: #000;
+  margin-top: -1rem;
+}
+.About-main-image {
+  padding-top: 3rem;
+
+  width: 100%;
+  background-color: #000;
+}
+.About-home-header {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 101% */
+  margin-top: 5rem;
+  color: #ffffff;
+  text-align: left;
+}
+.About-home-paragraph {
+  margin-top: 2rem;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-transform: uppercase;
+
+  color: #938e8e;
+}
+.home-about-header-two {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+  text-decoration: underline;
+  margin-bottom: 7rem;
+}
+/* ------------------CAKE---------------------------- */
+.cake-bg {
+  background: #191919;
+}
+.cakee {
+  width: 5rem;
+}
+.cake-log {
+  width: 6.5rem;
+  margin-top: -10rem;
+  margin-left: 32rem;
+  position: absolute;
+}
+.cake-header {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 138px;
+  line-height: 200px;
+  /* identical to box height, or 91% */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.cake-subheader {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.menu-one-header {
+  margin-top: 1rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+
+  background: linear-gradient(96.09deg, #db9534 -0.96%, #d8c465 145.24%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.menu-one-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #938e8e;
+}
+.menu-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  /* identical to box height, or 80% */
+  margin-top: 1rem;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 3rem;
+}
+hr {
+  width: 24rem;
+  background-color: #605d5d;
+}
+.cake-menu-container-one {
+  margin-top: 3rem;
+}
+.popular-hr {
+  border: 1px solid #ffffff;
+  margin-left: 19rem;
+  width: 9rem;
+  margin-bottom: -1rem;
+}
+.popular-hr-two {
+  border: 1px solid #ffffff;
+  width: 11rem;
+  margin-left: 42rem;
+  margin-top: -1rem;
+}
+.popular-hr-offer {
+  border: 1px solid #ffffff;
+  margin-left: 16rem;
+  width: 7rem;
+  margin-bottom: -1.8rem;
+}
+.popular-hr-two-offer {
+  border: 1px solid #ffffff;
+  width: 6rem;
+  margin-left: 45rem;
+  margin-top: -1.6rem;
+}
+.row-clss {
+  padding-bottom: 5rem;
+}
+/* =====================offer========================== */
+.offer-bg {
+  background-color: #000;
+}
+.offer-header {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #ffffff;
+  padding-top: 6rem;
+}
+.offer-hr {
+  width: 7rem;
+  margin-inline: 17rem;
+  margin-bottom: -1.3rem;
+  border: 1px solid #ffffff;
+}
+.offer-col {
+  text-align: center;
+  padding-top: 6rem;
+}
+.offer-one {
+  width: 13rem;
+}
+.offer-subheader {
+  padding-top: 1.2rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  /* Style */
+
+  background: linear-gradient(96.09deg, #db9534 -0.96%, #d8c465 145.24%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.offer-par {
+  color: #938e8e;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  /* padding-inline: 4.5rem; */
+}
+.offer-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+/*  ===============Chef=======================*/
+.chef-col {
+  background-color: #191919;
+}
+.img-chef {
+  margin-left: -3rem;
+  width: 30rem;
+}
+.chef-header {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  /* or 100% */
+  margin-top: 13rem;
+  color: #ffffff;
+}
+
+.chef-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #938e8e;
+}
+.img-chef q {
+  width: 12rem;
+}
+
+.item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.item2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.item3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.item4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.item5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.item6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: 350px;
+  grid-gap: 0px;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background: linear-gradient(96.09deg, #db9534 -0.96%, #d8c465 145.24%);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+#item5 {
+  background: black;
+}
+#item2 {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.grid-par {
+  font-family: "Bebas Neue";
+  color: #ffffff;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+}
+.chef-col-two {
+  background-color: #000;
+}
+
+/* ==================== */
+
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.about__card {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: #191919;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-top: 5rem;
+}
+.about__cardss {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  background: transparent;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border-color: #191919;
+  margin-top: 5rem;
+}
+.about__card:hover {
+  background: transparent;
+  border-color: #191919;
+  cursor: default;
+}
+
+.social-bk {
+  background: #080808;
+  padding-bottom: 3rem;
+}
+
+.about__cardss {
+  background: transparent;
+  padding: 1.5rem;
+
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: blue;
+}
+.about__cardss:hover {
+  background: transparent;
+  border-color: #191919;
+}
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #db9534;
+}
+.contact-option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+#icon-colo {
+  color: #9518fc;
+}
+#icons-color {
+  color: #db9534;
+}
+.cont-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.cont-paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #938e8e;
+}
+.about-cr {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.scroll__down {
+  position: absolute;
+  right: 7.3rem;
+  bottom: -1rem;
+  /* transform: rotate(90deg); */
+  font-weight: 300;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 28px */
+
+  letter-spacing: 0.04em;
+
+  /* DCCA87 */
+
+  color: #dcca87;
+}
+.arow {
+  margin-inline: 11rem;
+}
+.sscrol-col {
+  margin-left: 23rem;
+}
+.home-head {
+  background-color: #dcca87;
+  width: 5rem;
+  height: 0rem;
+  position: absolute;
+  right: -0.9rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+}
+.home-scrool {
+  margin-left: 5rem;
+}
+
+/*==============MEDIA QUERIES(mobile)===========*/
+@media screen and (max-width: 600px) {
+  .offer-header {
+    font-size: 40px;
+    padding-top: 3rem;
+  }
+  .popular-hr-offer {
+    margin-left: -1rem;
+    width: 4rem;
+  }
+  .popular-hr-two-offer {
+    width: 4rem;
+    margin-left: 19rem;
+  }
+  .menu-price {
+    margin-top: -8rem;
+  }
+
+  .chef-header {
+    margin-top: 6rem;
+  }
+  .popular-hr-two {
+    border: 1px solid #ffffff;
+    width: 4rem;
+    margin-left: 18rem;
+    margin-top: -1rem;
+  }
+  .popular-hr {
+    border: 1px solid #ffffff;
+    margin-left: 0rem;
+    width: 5rem;
+    margin-bottom: -1rem;
+  }
+  .cake-log {
+    width: 6.5rem;
+    margin-top: -10rem;
+    margin-left: 8rem;
+    position: absolute;
+  }
+  .scroll__down {
+    display: none;
+  }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about-card {
+    padding: 0rem;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-inline: -3rem;
+  }
+  .about__cardsss {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about-cr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+  }
+  .main-video {
+    margin-top: -12rem;
+  }
+  .home-header {
+    font-size: 48px;
+    margin-top: -6rem;
+    line-height: 63px;
+  }
+  .About-main-image {
+    padding-top: 0rem;
+  }
+  .home-paragraph {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .cont-paragraph {
+    font-size: 14px;
+  }
+  #icon-colo {
+    width: 4rem;
+  }
+}
+#menu-one-header-strawberry {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 15rem;
+}
+.new-src {
+  width: 12rem;
+  height: 23rem;
+}
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  margin-top: -9rem;
+}
+.content {
+  position: absolute;
+  width: 90%;
+  height: 85%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
